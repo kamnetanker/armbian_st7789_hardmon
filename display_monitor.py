@@ -106,12 +106,12 @@ def get_metrics() -> list[dict]:
 
     # Build a list of metric entries
     return [
-        {"text": f"IPv4: {ip}",                           "size_x": 0, "font_height": 0, "pos_x": 0},
-        {"text": f"MAC:  {mac}",                          "size_x": 0, "font_height": 0, "pos_x": 0},
-        {"text":     dt,                                  "size_x": 0, "font_height": 0, "pos_x": 0},
-        {"text": f"CPU/Hotspot: {cpu_t:.1f}/{hs_t:.1f}°C", "size_x": 0, "font_height": 0, "pos_x": 0},
-        {"text": f"CPU Load:      {cpu_load:.1f}%",        "size_x": 0, "font_height": 0, "pos_x": 0},
-        {"text": f"RAM:           {mem_used_mb:.1f}/{mem_tot_mb:.1f} MB", "size_x": 0, "font_height": 0, "pos_x": 0}
+        {"text": f"IPv4: {ip}",                                 "size_x": 0, "font_height": 0, "pos_x": 0},
+        {"text": f"MAC: {mac}",                                 "size_x": 0, "font_height": 0, "pos_x": 0},
+        {"text":     dt,                                        "size_x": 0, "font_height": 0, "pos_x": 0},
+        {"text": f"CPU/Hotspot: {cpu_t:.1f}/{hs_t:.1f}°C",      "size_x": 0, "font_height": 0, "pos_x": 0},
+        {"text": f"CPU Load: {cpu_load:.1f}%",                  "size_x": 0, "font_height": 0, "pos_x": 0},
+        {"text": f"RAM: {mem_used_mb:.1f}/{mem_tot_mb:.1f} MB", "size_x": 0, "font_height": 0, "pos_x": 0}
     ]
 
 
